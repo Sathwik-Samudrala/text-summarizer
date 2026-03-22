@@ -1,0 +1,19 @@
+{
+  "name": "text-summarizer",
+  "version": "1.0.0",
+  "description": "CLI + Web UI tool that converts unstructured text into a structured summary using an LLM API.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "cli": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
